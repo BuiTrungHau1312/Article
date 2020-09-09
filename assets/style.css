@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: myptsan;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: myptsan;
+	src: url(ptsans.woff);
+}
+
+@font-face {
+	font-family: mypacifico;
+	src: url(pacifico.woff);
+}
+
+div.container {
+	width: 85%;
+	margin: 0px auto;
+}
+
+.col-1 {
+	width: 6.333333333%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-2 {
+	width: 14.66666667%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-3 {
+	width: 23%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-4 {
+	width: 31.33333333%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-5 {
+	width: 39.66666667%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-6 {
+	width: 48%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-7 {
+	width: 56.33333333%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-8 {
+	width: 64.66666667%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-9 {
+	width: 73%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-10 {
+	width: 81.33333333%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-11 {
+	width: 89.66666667%;
+	float: left;
+	margin: 0 1%;
+}
+
+.col-12 {
+	width: 98%;
+	float: left;
+	margin: 0 1%;
+}
+
+.top-info-menu {
+	background-color: #222222;
+	width: 100%;
+	float: left;
+	padding: 4px 0px;
+}
+
+.title-info-menu-left span.name {
+	color: white;
+	font-weight: 700;
+}
+
+.title-info-menu-left a {
+	color: #808080;
+}
+
+.title-info-menu-right {
+	text-align: right;
+}
+
+.title-info-menu-right a {
+	color: #808080;
+}
+
+ul.submenu li {
+	display: inline-block;
+	margin: 0px 19px;
+}
+
+ul.submenu li a {
+	display: inline-block;
+	color: #dc001e;
+	font-weight: 700;
+}
+
+ul.submenu li.active {
+	border-bottom: 1px solid #dc001e;
+	line-height: 46px;
+}
+
+.sum-menu-logo {
+	width: 100%;
+	float: left;
+}
+
+.search-main form input {
+	width: 450px;
+	outline: none;
+	padding: 6px 7px;
+	background: none;
+	box-shadow: inset 2px 3px 4px #aba7ad;
+	border: none;
+}
+
+.search-main form input::placeholder {
+	color: #aba7ad;
+	font-weight: 700;
+}
+
+.search-main a {
+	color: #8a949c;
+	font-weight: bold;
+	padding: 5px 16px;
+	display: inline-block;
+}
+
+.search-main form input:focus {
+	background-color: white;
+}
+
+.search-main a:active {
+	background-color: white;
+	box-shadow: inset 2px 3px 4px #aba7ad;
+
+}
+
+.menu-left {
+	padding: 50px 0px;
+}
+
+.logo-menu {
+	padding-top: 24px;
+}
+
+.search-main {
+	padding-top: 60px;
+}
+
+.main-dics {
+	width: 100%;
+	background-color: #cc3333;
+	float: left;
+	padding-top: 22px;
+	padding-bottom: 65px;
+	box-shadow: inset 1px 4px 3px #6d0a0e;
+}
+
+ul.sub-list-dics li {
+	display: inline-block;
+}
+
+ul.sub-list-dics li span {
+	color: white;
+}
+
+ul.sub-list-dics li a {
+	color: white;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+h1.main-title-full-page {
+	color: white;
+	letter-spacing: 6px;
+	font-family: mypacifico;
+	text-shadow: 1px 1px 1px black;
+	font-size: 38px;
+	padding-top: 6px;
+}
+
+.add-to-cart {
+	text-align: center;
+	padding-top: 31px;
+}
+
+.add-to-cart a {
+	display: inline-block;
+	background-color: #c00327;
+	color: white;
+	font-weight: bold;
+	padding: 18px 66px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #333333;
+}
+
+.add-to-cart a:hover {
+	box-shadow: inset 1px 1px 2px #585656;
+}
+
+.add-to-cart a:active {
+	background-color: #90282c;
+}
+
+.add-to-cart p {
+	color: white;
+	font-weight: bold;
+	font-size: 9px;
+}
+
+p.price-main-limited {
+	color: #222222;
+	font-weight: bold;
+	font-size: 27px;
+	padding: 19px 0px;
+}
+
+span.sale {
+	color: #acacac;
+	text-decoration: line-through;
+}
+
+.dics-cover {
+	float: right;
+	margin-left: 8px;
+}
+
+p.article-text {
+	/* float: left; */
+	text-align: justify;
+	padding: 2px 4px;
+}
+
+.front {
+	position: relative;
+}
+
+.icon-sale {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 225px;
+	overflow: hidden;
+}
+
+.icon-sale i {
+	background: red;
+	color: white;
+	padding: 2px 38px;
+	position: absolute;
+	transform: rotate(-45deg);
+	left: -32px;
+	top: 23px;
+}
+
+.dics-cover img {
+	border-radius: 8px;
+}
+
+.album-content p {
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.album-content {
+	background: hsla(0, 0%, 50%, 0.8);
+	position: absolute;
+	width: 100%;
+	height: 225px;
+	top: 0px;
+	border-radius: 8px;
+	padding: 6px 7px;
+}
+
+.rote {
+	position: relative;
+}
+
+.behide {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+}
+
+.rote > * {
+	backface-visibility: hidden;
+}
+
+.rote {
+	transform-style: preserve-3d;
+	transition: 1s;
+}
+
+.dics-cover:hover .rote {
+	transform: rotateY(180deg);
+
+}
